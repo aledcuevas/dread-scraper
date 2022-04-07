@@ -20,7 +20,8 @@ import os
 
 import pandas as pd
 
-DATA_PATH = '/Users/acuevasv/Dev/dread-scraper/data/'
+#TODO: Modify this
+DATA_PATH = '/path/to/dread-scraper/data/'
 
 # Links of interest
 dread_main = 'http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion'
@@ -193,6 +194,8 @@ def navigate_to_main():
 if __name__ == '__main__':
     #binary = FirefoxBinary('/Applications/Tor Browser.app/Contents/MacOS/firefox')
     firefox_options = webdriver.FirefoxOptions()
+    
+    #TODO: Modify this to point to the firefox binary
     firefox_options.binary_location = '/Applications/Tor Browser.app/Contents/MacOS/firefox'
     driver = webdriver.Firefox(options=firefox_options)
 

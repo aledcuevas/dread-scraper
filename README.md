@@ -6,7 +6,9 @@ The following is a brief introduction on how to use this code to scrape Dread.
 
 You will find the necessary libraries and imports at the top of `main.py`.
 I'm also using Tor Browser `v.11.0.9` (based on Mozilla Firefox `91.7.0esr`). I'm
-running Selenium `4.1.3`.
+running Selenium `4.1.3`. To begin using the code, you will need to set `DATA_PATH`
+and set the location of the Firefox binary to use. In this case, the Tor Browser's
+path.
 
 ### High-level Flow
 
@@ -16,7 +18,7 @@ navigating the pages from the homepage of Dread, or we can execute a search and
 navigate the search results' pages. Thus, if desired, this process can be split
 across two browsers, one to retrieve URLs, one to navigate through those URLs.
 
-### Directory Structure
+###Example Directory Structure
 
 Following is a sample tree view for how your directory should look.
 ```
