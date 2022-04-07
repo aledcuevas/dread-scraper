@@ -56,7 +56,7 @@ starting from page 1. Note that, the main page of Dread indexes posts from vario
 This process usually works flawlessly for a while. At some point, though, Dread seems to ask
 again for a CAPTCHA although I'm not entirely sure what triggers that yet.
 - Once satisfied with the number of URLs that have been retrieved (or we have hit 500,
-which is the number of pages that Dread indexes), we can proceed to navigate each URL and
+which is the number of pages that Dread indexes for searches), we can proceed to navigate each URL and
 save the source, using `get_source_pages_from_list('/path/to/search_term=scam/scrapes', '/path/to/search_term=scam/urls.txt')`
 (example based on the above file structure). If everything is working properly, the `scrapes`
 folder should start getting populated with folders named after the post IDs.

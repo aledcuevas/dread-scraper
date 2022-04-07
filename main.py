@@ -4,21 +4,22 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 from selenium import webdriver
-#from selenium.webdriver.firefox.firefox_binary import
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
-from selenium.webdriver.common.keys import Keys
 import json
 from datetime import datetime
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 import random
 import codecs
 import os
+''' Possibly useful for extending functionality.
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.firefox.firefox_binary import
+from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
+from selenium.webdriver.common.keys import Keys
+'''
 
 
-import pandas as pd
 
 #TODO: Modify this
 DATA_PATH = '/path/to/dread-scraper/data/'
